@@ -1,0 +1,38 @@
+﻿  algorytm_a.cpp
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(26,16): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(71,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(72,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(147,50): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(147,36): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(164,80): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(164,51): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(184,50): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(184,36): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(210,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(210,38): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244: "argument": konwersja z "_Ty" do "float", możliwa utrata danych
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         ]
+  (kompilowanie pliku źródłowego „algorytm_a.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82):
+      kontekst tworzenia wystąpienia szablonu (najpierw najstarszy) to
+          C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\algorytm_a\algorytm_a.cpp(79,22):
+          zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::shared_ptr<Node> std::make_shared<Node,int&,int&,int,float>(int &,int &,int &&,float &&)” funkcji szablon
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(2906,46):
+          zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Ref_count_obj2<Node>::_Ref_count_obj2<int&,int&,_Ty,float>(int &,int &,_Ty &&,float &&)” funkcji szablon
+          with
+          [
+              _Ty=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(2095,18):
+          zobacz odwołanie do kompilowanego tworzenia wystąpienia „void std::_Construct_in_place<_Ty,int&,int&,int,float>(_Ty &,int &,int &,int &&,float &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _Ty=Node
+          ]
+  
+  algorytm_a.vcxproj -> C:\Users\bokin\Desktop\robotyka\Oleksandr Hrypas\algorytm_a\x64\Debug\algorytm_a.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
